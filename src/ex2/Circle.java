@@ -5,7 +5,6 @@ public class Circle implements GeometricObject{
 	private double radius;
 	
 	public Circle(double radius) {
-		super();
 		this.radius = radius;
 	}
 
@@ -17,13 +16,13 @@ public class Circle implements GeometricObject{
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
-		return radius*radius*3.14;
+		return radius*radius*Math.PI;
 	}
 
 	@Override
 	public double getPerimeter() {
 		// TODO Auto-generated method stub
-		return radius*2*3.14;
+		return radius*2*Math.PI;
 	}
 
 	

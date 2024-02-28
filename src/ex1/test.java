@@ -37,7 +37,7 @@ public class test {
 		System.out.println(s4);
 		System.out.println(s4.getArea());
 		System.out.println(s4.getColor());
-//		System.out.println(s4.getSide());
+//		System.out.println(s4.getSide());   // Compilation Error, Shape does not have getSide()
 		  
 		// Take note that we downcast Shape s4 to Rectangle, 
 		//  which is a superclass of Square, instead of Square
@@ -45,7 +45,7 @@ public class test {
 		System.out.println(r2);
 		System.out.println(r2.getArea());
 		System.out.println(r2.getColor());
-//		System.out.println(r2.getSide());
+//		System.out.println(r2.getSide());	// Compilation Error, Rectangle does not have getSide()
 		System.out.println(r2.getLength());
 		   
 		// Downcast Rectangle r2 to Square
