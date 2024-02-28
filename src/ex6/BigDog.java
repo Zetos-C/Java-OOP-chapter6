@@ -9,13 +9,13 @@ public class BigDog extends Dog {
 	
 	@Override
 	public void greets() {
-		super.greets();
+		System.out.println("Wooow");
 	}
 
 
 	@Override
 	public void greets(Dog another) {
-		super.greets(another);
+		System.out.println("Woooooow");
 	}
 
 
