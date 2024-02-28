@@ -7,12 +7,14 @@ public class Circle extends Shape {
 
 	}
 
-	public Circle(double radius,String color, Boolean filled) {
-		super(color, filled);
+	public Circle(double radius) {
+		super();
 		this.radius = radius;
 	}
 
-	public Circle(String color) {
+	public Circle(double radius, String color, Boolean filled) {
+		super(color, filled);
+		this.radius = radius;
 	}
 
 	public double getRadius() {
@@ -26,13 +28,13 @@ public class Circle extends Shape {
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
-		return radius*radius*3.14;
+		return radius * radius * 3.14;
 	}
 
 	@Override
 	public double getPerimeter() {
 		// TODO Auto-generated method stub
-		return radius*2*3.14;
+		return radius * 2 * 3.14;
 	}
 
 	@Override
