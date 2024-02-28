@@ -1,4 +1,4 @@
-package ex4;
+package ex8;
 
 public class MovablePoint implements Movable {
 
