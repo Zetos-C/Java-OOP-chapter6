@@ -1,12 +1,12 @@
 # 6. Exercises on Polymorphism, Abstract Classes and Interfaces
-## 6.1 Ex: Abstract Superclass Shape and Its Concrete Subclasses
-## 6.2 Ex: GeometricObject Interface and its Implementation Classes Circle and Rectangle
-## 6.3 Ex: Movable Interface and its Implementation MovablePoint Class
-## 6.4 Ex: Movable Interface and its Implementation Classes MovablePoint and MovableCircle
-## 6.5 Ex: Interfaces Resizable and GeometricObject
-## 6.6 Ex: Abstract Superclass Animal and its Implementation Subclasses
-## 6.7 Ex: Another View of Abstract Superclass Animal and its Implementation Subclasses
-## 6.8 Ex: Interface Movable and its implementation subclasses MovablePoint and MovableCircle
+#### 6.1 Ex: Abstract Superclass Shape and Its Concrete Subclasses
+#### 6.2 Ex: GeometricObject Interface and its Implementation Classes Circle and Rectangle
+#### 6.3 Ex: Movable Interface and its Implementation MovablePoint Class
+#### 6.4 Ex: Movable Interface and its Implementation Classes MovablePoint and MovableCircle
+#### 6.5 Ex: Interfaces Resizable and GeometricObject
+#### 6.6 Ex: Abstract Superclass Animal and its Implementation Subclasses
+#### 6.7 Ex: Another View of Abstract Superclass Animal and its Implementation Subclasses
+#### 6.8 Ex: Interface Movable and its implementation subclasses MovablePoint and MovableCircle
 | Feature                  | Abstract Class                                          | Interface                                                |
 |--------------------------|---------------------------------------------------------|----------------------------------------------------------|
 | Instantiation            | Cannot be directly instantiated; needs to be subclassed | Cannot be directly instantiated; needs to be implemented |
